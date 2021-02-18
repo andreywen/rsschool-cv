@@ -1,0 +1,39 @@
+.cv {
+	background-color: rgb(219, 219, 219);
+	text-align: center;
+}
+.section {
+  background-color: rgb(219, 219, 219);
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: 2px 2px 0 2px DarkSlateGray;
+}
+img {
+padding-right: 50px;
+max-height: 300px;
+float: right;
+}
+body {
+ background-color: white;
+ max-width: 1024px;
+ margin: auto;
+ box-shadow: 15px 5px 0 3px DarkSlateGray;
+}
+.personalcontent {
+max-width: 600px;
+text-align: justify;
+}
+h1 {
+   margin-left: 50px;
+   padding-top: 50px;
+   text-align: left;
+   border-bottom: 2px solid DarkSlateGray; 
+}
+h3 {
+   background-color: silver;
+}
+footer {
+  text-align: right;
+  padding-right: 50px;
+}
