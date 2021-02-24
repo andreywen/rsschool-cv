@@ -1,7 +1,7 @@
 .cv {
 	background-color: rgb(219, 219, 219);
   text-align: center;
-  margin: 10g% auto;
+  margin: 0 auto;
 }
 .section {
   background-color: rgb(219, 219, 219);
@@ -11,30 +11,54 @@
   box-shadow: 2px 2px 0 2px DarkSlateGray;
 }
 img {
-padding-right: 50px;
-max-height: 300px;
-float: right;
+  padding-right: 50px;
+  padding-top: 19px;
+  max-height: 285px;
+  float: right;
 }
 body {
- background-color: white;
- max-width: 1024px;
- margin: auto;
- box-shadow: 15px 5px 0 3px DarkSlateGray;
+  background-color: white;
+  max-width: 1024px;
+  margin: auto;
+  box-shadow: 15px 5px 0 3px DarkSlateGray;
 }
 .personalcontent {
-max-width: 600px;
-text-align: justify;
+  max-width: 600px;
+  text-align: justify;
 }
 h1 {
-   margin-left: 50px;
-   padding-top: 50px;
-   text-align: left;
-   border-bottom: 2px solid DarkSlateGray; 
+  margin: 0;
+  margin-left: 50px;
+  padding-top: 50px;
+  text-align: left;
+  border-bottom: 2px solid DarkSlateGray; 
 }
 h3 {
    background-color: silver;
 }
+.projects {
+  text-decoration: none;
+  color: #000;
+}
 footer {
-  text-align: right;
-  padding-right: 50px;
+  text-align: left;
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+footer li {
+  margin: 0;
+  list-style-type: none;
+  padding: 0 0 5px 0;
+}
+footer h4 {
+  margin: 0;
+  padding: 20px 0 10px 0;
+}
+mark {
+  background:silver;
+  padding: 2px;
 }
