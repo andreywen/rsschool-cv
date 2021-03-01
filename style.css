@@ -1,16 +1,17 @@
 .cv {
 	background-color: rgb(219, 219, 219);
   text-align: center;
-  margin: 0 auto;
+  margin: 10px auto 0 auto;
 }
 .section {
   background-color: rgb(219, 219, 219);
   text-align: left;
   margin-left: 50px;
   margin-right: 50px;
+  padding-bottom: 10px;
   box-shadow: 2px 2px 0 2px DarkSlateGray;
 }
-img {
+.avatar {
   padding-right: 50px;
   padding-top: 19px;
   max-height: 285px;
@@ -19,7 +20,7 @@ img {
 body {
   background-color: white;
   max-width: 1024px;
-  margin: auto;
+  margin: 0 auto;
   box-shadow: 15px 5px 0 3px DarkSlateGray;
 }
 .personalcontent {
@@ -29,36 +30,46 @@ body {
 h1 {
   margin: 0;
   margin-left: 50px;
-  padding-top: 50px;
+  padding-top: 10px;
   text-align: left;
   border-bottom: 2px solid DarkSlateGray; 
 }
 h3 {
    background-color: silver;
+   margin: 15px 0;
 }
 .projects {
   text-decoration: none;
   color: #000;
 }
+pre {
+  margin: 0 auto;
+}
 footer {
-  text-align: left;
-  padding-left: 50px;
-  padding-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
 }
 footer ul {
   margin: 0;
   padding: 0;
+  text-align: left;
 }
 footer li {
   margin: 0;
   list-style-type: none;
   padding: 0 0 5px 0;
 }
-footer h4 {
-  margin: 0;
-  padding: 20px 0 10px 0;
-}
 mark {
   background:silver;
   padding: 2px;
+}
+.references__list li a{
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  width: 100px;
 }
